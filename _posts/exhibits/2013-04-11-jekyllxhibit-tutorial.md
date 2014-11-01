@@ -2,8 +2,8 @@
 published: true
 layout: default
 category: exhibit
-title: "¿Cómo usar Jekyllxhibit?"
-section: "¡Tutoriales!"
+title: "Why Should I Use Jekyllxhibit?"
+section: Tutorials!
 
 ---
 
@@ -14,7 +14,7 @@ section: "¡Tutoriales!"
 
 El primer paso sería registrar un dominio .ES o .COM. En caso de no haber registrado un dominio nuestra página web estará alojada en un subdominio de [GitHub][6]
 
-> http://NOMBREUSUARIO.github.io 
+> http://NOMBREUSUARIO.github.io
 
 ## 2. Dar de alta en [GitHub][6]
 
@@ -42,17 +42,17 @@ Hacemos click en **FORK this repo** localizado en la parte superior derecha y te
 
 Un paso más antes de comenzar a añadir contenidos. Tenemos que renombrar la actual plantilla teniendo en cuenta que:
 
-* Si es una pagina de *perfil* y no disponemos de dominio propio o vamos a utilizar un dominio propio la plantilla hay que llamarla siguiendo la nomenclatura: 
+* Si es una pagina de *perfil* y no disponemos de dominio propio o vamos a utilizar un dominio propio la plantilla hay que llamarla siguiendo la nomenclatura:
 
-> NOMBREUSUARIO.github.io 
+> NOMBREUSUARIO.github.io
 
 * Si es una pagina de *proyecto* y vamos a utilizar un subdominio dentro de nuestro dominio principal no importa el nombre que elijamos para la plantilla.
 
- De esta manera podremos acceder a nuestra página Web a través de la url: 
+ De esta manera podremos acceder a nuestra página Web a través de la url:
 
 > http://nombreusuario.github.io
 
-Para renombrarla hacemos click en la pestaña **Settings** del repositorio, introducimos el nuevo nombre y hacemos click en **Rename**. Llegado este punto hay que asegurarse que la sección **GitHub Pages** de **Settings** está activada y puede leerse: 
+Para renombrarla hacemos click en la pestaña **Settings** del repositorio, introducimos el nuevo nombre y hacemos click en **Rename**. Llegado este punto hay que asegurarse que la sección **GitHub Pages** de **Settings** está activada y puede leerse:
 
 > Your site is published at http://www.nombreusuario.github.io
 
@@ -67,9 +67,9 @@ El archivo `CNAME` forma parte de nuestra plantilla *Jekyllxhibit* y tiene que s
 
 Para editar el archivo `CNAME` ir a nuestra plantilla en [GitHub][6], veremos entonces la lista de archivos que la forman. Hacer click sobre el archivo `CNAME` y aparecerá la siguiente pantalla:
 
-<a href="http://www.flickr.com/photos/50381188@N06/8637668359/" title="Paso-05-01-GitHub-Editar-CNAME por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8528/8637668359_e91c19c5f9.jpg" width="500" height="286" alt="Paso-05-01-GitHub-Editar-CNAME"></a> 
+<a href="http://www.flickr.com/photos/50381188@N06/8637668359/" title="Paso-05-01-GitHub-Editar-CNAME por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8528/8637668359_e91c19c5f9.jpg" width="500" height="286" alt="Paso-05-01-GitHub-Editar-CNAME"></a>
 
-Hacer click en **Edit**, editarlo y hacer click en **Commit Changes** situado abajo a la derecha. 
+Hacer click en **Edit**, editarlo y hacer click en **Commit Changes** situado abajo a la derecha.
 
 <a href="http://www.flickr.com/photos/50381188@N06/8637673623/" title="Paso-05-02-GitHub-Editar-CNAME por colaborativa.eu, en Flickr"><img src="http://farm9.staticflickr.com/8114/8637673623_7e97737735.jpg" width="500" height="325" alt="Paso-05-02-GitHub-Editar-CNAME"></a>
 
@@ -79,9 +79,9 @@ En el explorador ir a nombreusuario.github.com y ver la plantilla funcionando. �
 
 Brevemente describimos los archivos que componen la plantilla en [GitHub][6]:
 
-* archivo _config.yml: almacena información de configuración de la plantilla. 
-* directorio _layouts: plantillas en html que se utilizarán para visualizar los posts, en nuestro caso sólo disponemos de una llamada `default.html`. 
-* directorio _posts: el contenido de nuestra página Web se localiza en este directorio, deben nombrarse siguiendo la nomenclatura **AÑO-MES-DIA-título.md**. El orden en el que aparecen los contenidos viene determinado por esta fecha. Cuenta con dos subdirectorios: 
+* archivo _config.yml: almacena información de configuración de la plantilla.
+* directorio _layouts: plantillas en html que se utilizarán para visualizar los posts, en nuestro caso sólo disponemos de una llamada `default.html`.
+* directorio _posts: el contenido de nuestra página Web se localiza en este directorio, deben nombrarse siguiendo la nomenclatura **AÑO-MES-DIA-título.md**. El orden en el que aparecen los contenidos viene determinado por esta fecha. Cuenta con dos subdirectorios:
 
     * directorio sections: incluye las secciones que aparecen en la barra de la izquierda. Cada sección tiene asociado un número de exhibits.
 
