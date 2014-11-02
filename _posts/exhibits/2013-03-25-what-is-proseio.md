@@ -7,6 +7,11 @@ section: Tutorials!
 category: exhibit
 ---
 
-Prose.io es una herramienta especialmente diseñada para editar contenido en jekyll, podemos editar el contenido de nuestra Web de manera sencilla y rápida.
+A translation of the [jekyllxhibit "What is Prose.io" page](https://github.com/colaborativa/jekyllxhibit/blob/gh-pages/_posts/exhibits/2013-03-25-que-es-proseio.md):
 
-Para acceder a prose.io hay que indicar las credenciales de GitHub, a continuación elegir el repositorio que deseamos modificar y comenzar a añadir o modificar posts de nuestro blog.
+[Prose.io](http://prose.io) is a tool specifically designed to edit [Jekyll](http://jekyllrb.com). We can use it to edit the content of our website easily and quickly.
+
+To access prose.io...
+* give it your GitHub user credentials
+* choose the repository you want to modify
+* begin to add to or modify your blog posts.
