@@ -1,13 +1,4 @@
----
-published: true
-layout: default
-category: exhibit
-title: "How Do I Use Jekyllxhibit?"
-section: Tutorials!
-
----
-
-A translation of the [jekyllxhibit "How Do I Use Jekyllxhibit" page](https://github.com/colaborativa/jekyllxhibit/blob/gh-pages/_posts/exhibits/2013-04-11-tutorial-plantilla-jekyllxhibit.md):
+**PLEASE NOTE**: For reasons that are unclear to me, jekyllxhbit pages don't appear to render correctly when hosted as github pages. You can see this by comparing [colaborativa.github.io/jekyllxhibit](colaborativa.github.io/jekyllxhibit) and [http://jekyllxhibit.colaborativa.eu](http://jekyllxhibit.colaborativa.eu). This fork doesn't provide a fix for this issue, though it may do so in the future.
 
 # *Jekyllxhibit* Template Tutorial: Creaing web pages for collaborativa.eu
 Last updated: April 22, 2013
