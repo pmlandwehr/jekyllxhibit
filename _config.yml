@@ -16,7 +16,15 @@ prose:
    title: "Section Title"
 
 
-
 title: Jekyllxhibit
 author: colaborativa.eu
 twitter: colaborativaeu
+
+
+# Build settings
+# You can switch out kramdown if you don't want github pages
+markdown: kramdown
+
+# Enable github-flavored markdown - only for kramdown
+kramdown:
+  input: GFM
