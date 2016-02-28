@@ -1,30 +1,42 @@
+ github: [metadata]
+ markdown: kramdown
+ kramdown:
+   input: GFM
+   hard_wrap: false
+ gems:
+   - jekyll-coffeescript
+   - jekyll-paginate
+
+
 permalink: none
 exclude: [ "sass", "CNAME", "config.rb", "LICENSE", "README.md", "_assets", "Gemfile", "Gemfile.lock", "rakefile" ]
 
 
+metadata:
+   "_posts/exhibits": |
+    layout: default
+    category: exhibit
+    title: "Exhibit Title"
+    section: "Exhibit Section"
+   "_posts/sections": |
+    layout: default
+    category: section
+    title: "Section Title"
+
 prose:
- rooturl: "_posts/"
- metadata:
-  "_posts/exhibits": |
-   layout: default
-   category: exhibit
-   title: "Exhibit Title"
-   section: "Exhibit Section"
-  "_posts/sections": |
-   layout: default
-   category: section
-   title: "Section Title"
+   rooturl: "_posts/"
+   metadata:
+    "_posts/exhibits": |
+     layout: default
+     category: exhibit
+     title: "Exhibit Title"
+     section: "Exhibit Section"
+    "_posts/sections": |
+     layout: default
+     category: section
+     title: "Section Title"
 
 
 title: Jekyllxhibit
 author: colaborativa.eu
 twitter: colaborativaeu
-
-
-# Build settings
-# You can switch out kramdown if you don't want github pages
-markdown: kramdown
-
-# Enable github-flavored markdown - only for kramdown
-kramdown:
-  input: GFM
